@@ -112,7 +112,7 @@ activate :s3_sync do |s3_sync|
   s3_sync.bucket                     = ENV["SW_NAME"]
   s3_sync.region                     = ENV["SERV_REGION"]
   s3_sync.aws_access_key_id          = ENV["SERV_ID"]
-  s3_sync.aws_secret_access_key      = ENV["SERV_KEY"]
+  s3_sync.aws_secret_access_key      = ENV["BP_KEY"]
   s3_sync.delete                     = true # We delete stray files by default.e
   s3_sync.after_build                = false # We do not chain after the build step by default.
   s3_sync.prefer_gzip                = true
