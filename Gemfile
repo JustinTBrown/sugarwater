@@ -17,3 +17,4 @@ end
 
 gem "haml"
 gem "html2haml"
+gem 'middleman-s3_sync'
