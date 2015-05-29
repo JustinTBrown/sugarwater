@@ -102,6 +102,9 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+
+  # Ignore on build
+  ignore 'bower_components/*'
 end
 
 # S3 Sync
