@@ -18,4 +18,5 @@ end
 
 gem "haml"
 gem "html2haml"
-gem 'middleman-s3_sync'
+gem 'middleman-s3_sync', '~> 3.3'
+gem 'mime-types'

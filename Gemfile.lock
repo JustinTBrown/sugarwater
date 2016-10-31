@@ -176,7 +176,8 @@ DEPENDENCIES
   html2haml
   middleman (= 3.3.12)
   middleman-livereload
-  middleman-s3_sync
+  middleman-s3_sync (~> 3.3)
+  mime-types
   ruby18_source_location
   wdm (~> 0.1.0)
 
